@@ -14,5 +14,10 @@ export class ProdutosComponent {
   private produtoService = inject(ProdutoService);
 
   listaProdutos: Produto [] = [];
+  
+  ngOnInit() {
+    this. ListaProdutos = this.produtoService.getProdutos();
+        
+  }
 
 }
