@@ -15,5 +15,8 @@ export class TarefasComponent {
   ngOnInit(){
     this.listaTarefas = this.tarefaServico.getTarefas();
   }
+  toggleConcluido(tarefa:Tarefa){
+    tarefa.concluido = !tarefa.concluido
+  }
 
 }
