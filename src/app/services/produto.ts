@@ -9,10 +9,10 @@ export class ProdutoService {
   getProdutos(): Produto[] {
     return [
       {nome: 'Notebook', promocao: true},
-      {nome: 'Mouse', promocao: true},
-      {nome: 'Pc Gamer', promocao: true},
-      {nome: 'Mouse sem fio', promocao: true},
-      {nome: 'Teclado', promocao: true},
+      {nome: 'Mouse', promocao: false},
+      {nome: 'Pc Gamer', promocao: false},
+      {nome: 'Mouse sem fio', promocao: false},
+      {nome: 'Teclado', promocao: false},
 
     ]
   };
